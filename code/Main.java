@@ -30,7 +30,7 @@ public class Main
         catch (EmptyStackException e)
         {
             System.err.println("Calculation error: " + e.getMessage());
-            System.err.println("Malformed expression or mismatched parentheses detected.");
+            System.err.println("Invalid expression or mismatched parentheses detected.");
         }
         catch (StackOverflowError e)
         {
